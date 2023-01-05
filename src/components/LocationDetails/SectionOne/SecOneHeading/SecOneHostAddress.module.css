@@ -1,0 +1,14 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  gap: 0.3rem;
+  font-style: normal;
+}
+.segment {
+  text-decoration: underline;
+}
+.segment:hover {
+  cursor: pointer;
+}

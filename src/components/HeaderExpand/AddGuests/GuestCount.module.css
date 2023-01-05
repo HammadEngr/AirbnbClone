@@ -1,0 +1,26 @@
+.main {
+  /* position: absolute; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100px;
+}
+.dec,
+.inc {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid rgb(222, 222, 222);
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dec:hover,
+.inc:hover {
+  cursor: pointer;
+}
+.dec img,
+.inc img {
+  width: 60%;
+}

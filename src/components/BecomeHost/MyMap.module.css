@@ -1,0 +1,5 @@
+.main {
+  width: calc((100vw - 6rem) / 2);
+  height: 40vw;
+  border-radius: 20px;
+}

@@ -1,0 +1,14 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.main h3 {
+  margin: 0;
+  font-size: 0.9rem;
+}
+.main p {
+  margin: 0;
+  font-size: 0.8rem;
+}

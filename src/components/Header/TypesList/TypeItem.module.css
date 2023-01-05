@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 95px;
+  position: absolute;
+  transition: all 200ms ease-in;
+}
+.main:hover {
+  cursor: pointer;
+  border-bottom: 2px solid rgb(189, 189, 189);
+}
+.main h3 {
+  margin: 0;
+  font-size: 0.6rem;
+  letter-spacing: 2px;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+}
+.logo img {
+  width: 100%;
+}

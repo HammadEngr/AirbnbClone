@@ -1,0 +1,150 @@
+.main {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 10px;
+  padding: 1rem 0;
+  width: 500px;
+  height: 500px;
+  gap: 10px;
+  position: relative;
+}
+.header {
+  top: 0;
+  position: absolute;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  padding: 20px;
+  border-bottom: 1px solid grey;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: calc(100% - 116px);
+  overflow: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  margin: 40px;
+}
+.question {
+  text-align: center;
+  margin: 0;
+  width: 100%;
+}
+.close {
+  width: 15px;
+}
+.close:hover {
+  cursor: pointer;
+}
+.address {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 50px;
+  padding: 40px 0;
+  border-bottom: 1px solid grey;
+}
+.address input {
+  width: 100%;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid grey;
+  text-indent: 10px;
+}
+.type {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border-bottom: 1px solid grey;
+  padding: 40px 0;
+}
+.btns {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(240, 240, 240);
+  border-radius: 20px;
+  padding: 5px;
+}
+.btns button {
+  width: calc(100% / 2);
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+}
+.btns button:hover {
+  cursor: pointer;
+}
+.active {
+  background-color: rgb(255, 255, 255);
+}
+.guests {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 20px 0;
+}
+.number__guest {
+  text-align: center;
+  width: 30px;
+}
+.guests h5 {
+  width: 100%;
+}
+.guests__choose {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.increase,
+.decrease {
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(210, 210, 210);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: transparent;
+}
+.increase:hover,
+.decrease:hover {
+  cursor: pointer;
+}
+.increase img,
+.decrease img {
+  width: 80%;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  padding: 16px;
+  width: 100%;
+  border-top: 1px solid grey;
+}
+.footer button {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 1rem;
+}

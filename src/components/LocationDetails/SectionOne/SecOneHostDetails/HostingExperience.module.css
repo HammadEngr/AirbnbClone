@@ -1,0 +1,26 @@
+.main {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "logo one"
+    "logo two";
+  column-gap: 0.5rem;
+  row-gap: 0.5rem;
+}
+.logo {
+  grid-area: logo;
+  width: 30px;
+  height: 30px;
+}
+.logo img {
+  width: 100%;
+}
+.main h4 {
+  grid-area: one;
+}
+.main p {
+  grid-area: two;
+  font-size: 0.8rem;
+  color: grey;
+}

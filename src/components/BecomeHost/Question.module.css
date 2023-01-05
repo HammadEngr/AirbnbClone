@@ -1,0 +1,30 @@
+.question_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.question_container:hover {
+  cursor: pointer;
+}
+.question {
+  width: 100%;
+  border-bottom: 1px solid rgb(192, 192, 192);
+  height: 100%;
+  transition: all 1s ease-in;
+}
+.question h4 {
+  font-weight: normal;
+  font-size: 1.3rem;
+}
+.up {
+  width: 15px;
+  transform: rotateZ(180deg);
+  transition: all 200ms ease-in-out;
+}
+.rotate {
+  transform: rotateZ(360deg);
+}
+.question img:hover {
+  cursor: pointer;
+}

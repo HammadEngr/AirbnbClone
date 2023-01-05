@@ -1,0 +1,33 @@
+.signup__btn {
+  width: 70px;
+  height: 35px;
+  border-radius: 30px;
+  border: 1px solid rgb(161, 161, 161);
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all 500ms ease-in-out;
+}
+.signup__btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 0 10px rgb(147, 147, 147);
+  cursor: pointer;
+}
+.btn__lines {
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.btn__line {
+  border-top: 2px solid black;
+  width: 20px;
+}
+.user {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: gray;
+}

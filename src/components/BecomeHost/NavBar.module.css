@@ -1,0 +1,45 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 6rem;
+  background-color: white;
+  z-index: 1;
+}
+.ready__toAirbnb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.header img {
+  width: 35px;
+}
+.header img:hover {
+  cursor: pointer;
+}
+.airbtn {
+  width: 200px;
+  height: 50px;
+  background: linear-gradient(to left, rgb(255, 66, 66), rgb(255, 105, 105));
+  border-radius: 10px;
+  border-style: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.airbtn:hover {
+  cursor: pointer;
+}
+.airbtn img {
+  width: 25px;
+}

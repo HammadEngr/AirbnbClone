@@ -1,0 +1,8 @@
+.header__expand {
+  z-index: 1;
+  top: 30%;
+  left: 50%;
+  position: fixed;
+  transform: translateX(-50%);
+  transition: all 1s ease-in-out 1s;
+}

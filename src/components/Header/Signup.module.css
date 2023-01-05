@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+.main h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 0.9rem;
+}
+.main h4:hover {
+  cursor: pointer;
+  background-color: rgb(247, 247, 247);
+  border-radius: 20px;
+}
+.main h4 a {
+  text-decoration: none;
+  color: black;
+}

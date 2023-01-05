@@ -1,0 +1,16 @@
+.main {
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 10px 20px;
+  width: 200px;
+}
+.detail {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: gray;
+}
+.main:hover {
+  background-color: rgb(240, 240, 240);
+  cursor: pointer;
+}

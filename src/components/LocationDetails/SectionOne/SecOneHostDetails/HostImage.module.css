@@ -1,0 +1,8 @@
+.main {
+  width: 70px;
+  height: 70px;
+}
+.main img {
+  width: 100%;
+  object-fit: contain;
+}

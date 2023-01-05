@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  display: grid;
+  grid-column: 4fr 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "title title"
+    "host btn";
+  margin-top: 6rem;
+  background-color: rgb(255, 255, 255);
+  width: 100vw;
+  padding: 0 2rem;
+}
+.title {
+  grid-area: title;
+}
+.host {
+  grid-area: host;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  color: grey;
+}
+
+.btns {
+  grid-area: btn;
+  justify-self: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}

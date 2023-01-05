@@ -1,0 +1,15 @@
+.btn {
+  background: none;
+  border: none;
+  border-width: 0;
+  transition: border-width 200ms ease-in-out;
+  font-size: 0.9rem;
+}
+.btn:hover {
+  color: rgb(142, 142, 142);
+  cursor: pointer;
+  border-bottom: 2px solid rgb(142, 142, 142);
+}
+.btn__active {
+  border-bottom: 2px solid rgb(63, 63, 63);
+}

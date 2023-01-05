@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: flex-start;
+  margin-top: 40px;
+  padding: 0 3rem;
+  gap: 1.5rem;
+}
+.main {
+  display: grid;
+  align-self: flex-start;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "one two"
+    "three two";
+  width: 800px;
+  border-bottom: 1px solid grey;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+.title {
+  grid-area: one;
+}
+.villa {
+  grid-area: three;
+}
+.image {
+  grid-area: two;
+}

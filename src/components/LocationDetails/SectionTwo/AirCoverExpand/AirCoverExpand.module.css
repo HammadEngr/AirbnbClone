@@ -1,0 +1,44 @@
+.main {
+  width: 900px;
+  height: 400px;
+  background-color: antiquewhite;
+  overflow: auto;
+  padding: 3rem;
+  border-radius: 10px;
+  gap: 1rem;
+}
+.title {
+  padding: 1rem 0;
+}
+.close img {
+  width: 20px;
+  height: 20px;
+}
+.close img:hover {
+  cursor: pointer;
+}
+.main section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "one two"
+    "three four"
+    "five five";
+  gap: 1rem;
+}
+.protection {
+  grid-area: one;
+}
+.chekIn {
+  grid-area: two;
+}
+.gaurentee {
+  grid-area: three;
+}
+.safety {
+  grid-area: four;
+}
+.help {
+  grid-area: five;
+}

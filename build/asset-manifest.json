@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.14b111c7.css",
+    "main.js": "/static/js/main.6fddf19a.js",
+    "static/media/img10.jpg": "/static/media/img10.5ca3ff5001e0a8cb8498.jpg",
+    "static/media/img6.jpg": "/static/media/img6.421d205922dd9198ea27.jpg",
+    "static/media/img5.jpg": "/static/media/img5.2a5137107eec7a9aa7f5.jpg",
+    "static/media/img11.jpg": "/static/media/img11.07403e4401ee48de1344.jpg",
+    "static/media/img7.jpg": "/static/media/img7.f08b3274340a37b3fd36.jpg",
+    "static/media/img4.jpg": "/static/media/img4.3c03c9895f8e4d161c03.jpg",
+    "static/media/img1.jpg": "/static/media/img1.ee8cb8f3a038a7bd734c.jpg",
+    "static/media/img2.jpg": "/static/media/img2.040b4aed8dfe4ea4ef2d.jpg",
+    "static/media/img8.jpg": "/static/media/img8.d8c8686c649b83e40e69.jpg",
+    "static/media/img3.jpg": "/static/media/img3.b0f8e3cbfef1253fbf60.jpg",
+    "static/media/img9.jpg": "/static/media/img9.57e8432be9db9bc3ca02.jpg",
+    "static/media/v3.jpg": "/static/media/v3.f5e9a42914dc84967f18.jpg",
+    "static/media/v4.jpg": "/static/media/v4.761fe56ae3cfd95a1ec1.jpg",
+    "static/media/v2.jpg": "/static/media/v2.d77fc987cddb31983f0d.jpg",
+    "static/media/sec2img.jpg": "/static/media/sec2img.14925420f784034770a2.jpg",
+    "static/media/v1.jpg": "/static/media/v1.0c075d8070e38a184e05.jpg",
+    "static/media/v5.jpg": "/static/media/v5.e51514848918d64d34d8.jpg",
+    "static/media/img12.png": "/static/media/img12.1e7a8407e4db8771f4d5.png",
+    "static/media/airbnb.png": "/static/media/airbnb.842021961f47426e8e77.png",
+    "static/media/beach.png": "/static/media/beach.1b3f63643e3c4e269898.png",
+    "static/media/heart.png": "/static/media/heart.8282275b4a8053bf5eb5.png",
+    "static/media/kitchen.png": "/static/media/kitchen.1711fd78341f2b223dd4.png",
+    "static/media/invoice.png": "/static/media/invoice.8db39acbec9568aa2313.png",
+    "static/media/key.png": "/static/media/key.cc02fa06ce9d1bb98036.png",
+    "static/media/star.png": "/static/media/star.439d6f40de94fa0439b7.png",
+    "static/media/cross.png": "/static/media/cross.ffdafe3f0eceab67b7c2.png",
+    "static/media/bedroom.png": "/static/media/bedroom.488cfb3c144c4fc3b2e5.png",
+    "index.html": "/index.html",
+    "main.14b111c7.css.map": "/static/css/main.14b111c7.css.map",
+    "main.6fddf19a.js.map": "/static/js/main.6fddf19a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14b111c7.css",
+    "static/js/main.6fddf19a.js"
+  ]
+}

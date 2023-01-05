@@ -1,0 +1,48 @@
+.main {
+  position: fixed;
+  top: 12%;
+  right: 1%;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px;
+  height: 250px;
+  width: 250px;
+  box-shadow: 0 0 5px grey;
+}
+.main button {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  width: 250px;
+  height: 30px;
+  padding: 10px 15px;
+  background: none;
+  border-style: none;
+  font-size: 1rem;
+}
+.main button:hover {
+  cursor: pointer;
+  background-color: rgb(236, 236, 236);
+}
+.main button a {
+  text-decoration: none;
+  color: black;
+}
+.top,
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+}
+.top {
+  border-bottom: 1px solid grey;
+}
+.signup {
+  font-weight: bold;
+}

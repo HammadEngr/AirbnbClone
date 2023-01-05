@@ -1,0 +1,18 @@
+.btn {
+  width: 75px;
+  height: 30px;
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(223, 223, 223);
+  border-radius: 5px;
+}
+.btn img {
+  width: 13px;
+}

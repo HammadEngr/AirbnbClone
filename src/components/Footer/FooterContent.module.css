@@ -1,0 +1,26 @@
+.footer__container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  height: 350px;
+  background-color: rgb(240, 240, 240);
+}
+.footer__container ul {
+  margin-left: 30px;
+  width: calc(100vw / 4);
+}
+.footer__container h5 {
+  margin: 0;
+}
+.footer__container ul li {
+  line-height: 35px;
+  list-style: none;
+  font-weight: normal;
+}
+.footer__container li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.footer__container li:first-child {
+  font-weight: bold;
+}
